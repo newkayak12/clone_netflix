@@ -4,7 +4,7 @@ services:
     container_name: RabbitMQ
     build:
       context: .
-    image: rabbitmq:3.10
+    image: rabbitmq:management
     restart: unless-stopped
     environment:
       RABBITMQ_DEFAULT_USER: root
